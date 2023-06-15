@@ -6,7 +6,7 @@ import VaraMulti3 from './Images/VaraMulti3.jpg'
 export default function App() {
   return (
     <div className='App'>
-        <Parallax strength={100} blur={{ min: -10, max: 10 }} bgImage={Landscape2}>
+        <Parallax strength={200} blur={{ min: -10, max: 10 }} bgImage={Landscape2}>
             <div className='content1'>
                 <div className='text-content1'>
                     <h1>Code Crafters</h1>
@@ -14,7 +14,7 @@ export default function App() {
             </div>
         </Parallax>
 
-        <Parallax strength={300} >
+        <Parallax strength={0} >
             <div className='content2'>
                 <div className='text-content2'>
                     <p>
@@ -26,7 +26,7 @@ export default function App() {
             </div>
         </Parallax>
 
-        <Parallax strength={-100} bgImage={VaraMulti3}>
+        <Parallax strength={-200} bgImage={VaraMulti3}>
             <div className="content3">
                 <div className="text-content3">
                     <p>
