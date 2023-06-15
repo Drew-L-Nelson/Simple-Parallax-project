@@ -13,7 +13,7 @@ export default function App() {
         </Parallax>
 
         <Parallax>
-            Hello World!!
+            Hello World
         </Parallax>
     </div>
   )
