@@ -1,9 +1,9 @@
-import './App.css'
+import '../styles/About.css';
 import { Parallax } from 'react-parallax'
-import Landscape2 from './Images/Landscape2.jpg'
-import VaraMulti3 from './Images/VaraMulti3.jpg'
+import Landscape2 from '../Images/Landscape2.jpg'
+import VaraMulti3 from '../Images/VaraMulti3.jpg'
 
-export default function App() {
+export default function About() {
   return (
     <div className='App'>
         <Parallax strength={100} blur={{ min: -10, max: 10 }} bgImage={Landscape2}>
