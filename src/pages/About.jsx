@@ -1,12 +1,12 @@
-import './App.css'
+import '../styles/About.css';
 import { Parallax } from 'react-parallax'
-import Landscape2 from './Images/Landscape2.jpg'
-import VaraMulti3 from './Images/VaraMulti3.jpg'
+import Landscape2 from '../Images/Landscape2.jpg'
+import VaraMulti3 from '../Images/VaraMulti3.jpg'
 
-export default function App() {
+export default function About() {
   return (
     <div className='App'>
-        <Parallax strength={200} blur={{ min: -10, max: 10 }} bgImage={Landscape2}>
+        <Parallax strength={100} blur={{ min: -10, max: 10 }} bgImage={Landscape2}>
             <div className='content1'>
                 <div className='text-content1'>
                     <h1>Code Crafters</h1>
@@ -14,7 +14,7 @@ export default function App() {
             </div>
         </Parallax>
 
-        <Parallax strength={0} >
+        <Parallax strength={300} >
             <div className='content2'>
                 <div className='text-content2'>
                     <p>
@@ -26,7 +26,7 @@ export default function App() {
             </div>
         </Parallax>
 
-        <Parallax strength={-200} bgImage={VaraMulti3}>
+        <Parallax strength={-100} bgImage={VaraMulti3}>
             <div className="content3">
                 <div className="text-content3">
                     <p>

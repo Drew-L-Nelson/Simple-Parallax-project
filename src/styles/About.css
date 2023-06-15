@@ -1,0 +1,54 @@
+h1 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Eagle Lake', cursive;
+}
+
+.content1 {
+    height: 100vh;
+}
+
+.content2 {
+    height: 100vh;
+    background: gray;
+}
+
+.content3 {
+    height: 100vh;
+}
+
+.text-content1 {
+    position: absolute;
+    top: 60%;
+    left: 45vh;
+    padding: 5px 15px;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-size: 4vh;
+}
+
+.text-content2 {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    padding: 15px 6vh;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+    background: gray;
+    border-radius: 20px;
+    font-size: 3vh;
+}
+
+.text-content3 {
+    position: relative;
+    top: 80%;
+    left: 50%;
+    padding: 5px 6vh;
+    transform: translate(-50%, -50%);
+    border-radius: 20px;
+    font-size: 3vh;
+}
