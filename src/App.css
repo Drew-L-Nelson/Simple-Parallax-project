@@ -1,20 +1,36 @@
-main {
-  text-align: center;
-  vertical-align: center;
-  line-height: 100vh
-}
-
 .content {
     height: 100vh;
 }
 
-.text-content {
+.text-content1 {
     position: absolute;
     top: 50%;
-    left: 50%;
+    left: 20%;
+    padding: 5px 15px;
+    transform: translate(-50%, -50%);
+    background: none;
+    border-radius: 20px;
+    font-size: 4vh;
+}
+
+.text-content2 {
+    position: absolute;
+    top: 50%;
+    left: 70%;
     padding: 5px 15px;
     transform: translate(-50%, -50%);
     background: gray;
     border-radius: 20px;
-    font-size: 50px;
+    font-size: 4vh;
+}
+
+.text-content3 {
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    padding: 5px 15px;
+    transform: translate(-50%, -50%);
+    background: gray;
+    border-radius: 20px;
+    font-size: 4vh;
 }
