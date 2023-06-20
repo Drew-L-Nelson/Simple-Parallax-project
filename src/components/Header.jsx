@@ -15,7 +15,7 @@ import Tooltip from '@mui/material/Tooltip';
 import MenuItem from '@mui/material/MenuItem';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
 
-import { getCodestoneThumbnailUrl } from '../firebase-config.js';
+import { getCodestoneThumbnailUrl } from '../firebase-config.jsx';
 
 const pages = ['Book', 'Characters', 'Newsletter', 'About', 'Shop'];
 const settings = ['Profile', 'Account', 'Dashboard', 'Logout'];

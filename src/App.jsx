@@ -1,4 +1,9 @@
-import './App.css'
+import React from 'react'
+import './styles/App.css'
+import Header from './components/Header'
+import { Routes, Route } from 'react-router-dom';
+
+
 import { Parallax, ParallaxLayer } from 'react-parallax'
 import Landscape2 from './Images/Landscape2.jpg'
 import VaraMulti3 from './Images/VaraMulti3.jpg'
@@ -6,6 +11,10 @@ import VaraMulti3 from './Images/VaraMulti3.jpg'
 export default function App() {
   return (
     <div className='App'>
+        <React.Fragment>
+          <Header/>
+        </React.Fragment>
+        
         <Parallax strength={200} blur={{ min: -10, max: 10 }} bgImage={Landscape2}>
             <div className='content1'>
                 <div className='text-content1'>
