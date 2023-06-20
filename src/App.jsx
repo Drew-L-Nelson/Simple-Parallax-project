@@ -1,5 +1,5 @@
 import './App.css'
-import { Parallax } from 'react-parallax'
+import { Parallax, ParallaxLayer } from 'react-parallax'
 import Landscape2 from './Images/Landscape2.jpg'
 import VaraMulti3 from './Images/VaraMulti3.jpg'
 
@@ -34,6 +34,10 @@ export default function App() {
                     </p>
                 </div>
             </div>
+        </Parallax>
+
+        <Parallax>
+
         </Parallax>
     </div>
   )
