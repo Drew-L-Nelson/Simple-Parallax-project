@@ -36,6 +36,9 @@ export default function About() {
                     <p>
                         (Socials Down Here)
                     </p>
+                    <button>
+                        Click Me
+                    </button>
                 </div>
             </div>
         </Parallax>

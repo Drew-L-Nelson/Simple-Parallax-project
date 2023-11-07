@@ -4,25 +4,21 @@ import '../styles/Characters.css';
 //rebuild this data fetching in Firebase after testing
 import characters from '../data/characters.json';
 
-const CharacterCard = ({ character, onOpen }) => {
-    return (
-        <div className="character-card" onClick={() => onOpen(character)}>
-            {/* <img src={character.image} alt={character.name} /> */}
-            <h2>{character.name}</h2>
-        </div>
-    );
-};
+const CharacterCard = ({ character, onOpen }) => (
+  <div className="character-card" onClick={() => onOpen(character)}>
+    {/* Display character info here */}
+    <h2>{character.name}</h2>
+  </div>
+);
 
-const BackStory = ({ character, onClose }) => {
-    return(
-        <div className="backstory">
-            <h2>Backstory</h2>
-            <h2>{character.name}</h2>
-            <p>{character.backstory}</p>
-            <button onClick={onClose}>Close</button>
-        </div>
-    )
-};
+const BackStory = ({ character, onClose }) => (
+  <div className="backstory">
+    {/* Display character backstory here */}
+    <h2>{character.name}</h2>
+    <p>{character.backstory}</p>
+    <button onClick={onClose}>Close</button>
+  </div>
+);
 
 
 
@@ -46,7 +42,9 @@ const Characters = () => {
                 ))}
             </div>
 
-            {selectedCharacter && <Backstory character={selectedCharacter} onClose={closeBackstory} />}
+            <button>Testing This Out</button>
+
+            {selectedCharacter && <BackStory character={selectedCharacter} onClose={closeBackstory} />}
         </div>
   )
 };
