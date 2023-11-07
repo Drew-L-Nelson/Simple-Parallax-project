@@ -1,3 +1,13 @@
+h1, h2 {
+    font-family: 'Cinzel Decorative', cursive;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+p {
+    font-family: 'Eagle Lake', cursive;
+}
+
 .characters-container {
   position: relative;
 }
@@ -8,9 +18,14 @@
 }
 
 .character-card {
-  flex: 0 0 auto; /* Do not grow or shrink, but allow basis to change */
-  margin-right: 15px;
-  /* additional styling */
+    flex: 0 0 auto; /* Do not grow or shrink, but allow basis to change */
+    margin-right: 15px;
+    width: 200px; /* Set a width */
+    height: 300px; /* Set a height */
+    border: 1px solid black; /* Add a border to visually see the card */
+    margin: 10px;
+    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2);
 }
 
 .backstory {
