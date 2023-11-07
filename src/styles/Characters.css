@@ -1,0 +1,30 @@
+.characters-container {
+  position: relative;
+}
+
+.characters-scroll-container {
+  display: flex;
+  overflow-x: auto;
+}
+
+.character-card {
+  flex: 0 0 auto; /* Do not grow or shrink, but allow basis to change */
+  margin-right: 15px;
+  /* additional styling */
+}
+
+.backstory {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 100%; /* or custom width */
+  height: 100%;
+  background: white;
+  /* additional styling */
+  transform: translateX(100%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.backstory.open {
+  transform: translateX(0);
+}
