@@ -47,9 +47,9 @@ const Characters = () => {
                 {characters.map(character => (
                     <CharacterCard key={character.id} character={character} onOpen={openBackstory}/>
                 ))}
+                <button onClick={colorChange} >Testing This Out</button>
             </div>
 
-            <button onClick={colorChange} >Testing This Out</button>
 
             {selectedCharacter && <BackStory character={selectedCharacter} onClose={closeBackstory} />}
         </div>
