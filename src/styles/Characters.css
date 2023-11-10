@@ -23,6 +23,7 @@ p {
 .characters-scroll-container {
     display: flex;
     overflow-x: auto;
+    z-index: 0;
 }
 
 .character-card {
