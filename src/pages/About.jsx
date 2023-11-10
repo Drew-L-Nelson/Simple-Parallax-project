@@ -3,6 +3,11 @@ import { Parallax } from 'react-parallax'
 import Landscape2 from '../Images/Landscape2.jpg'
 import VaraMulti3 from '../Images/VaraMulti3.jpg'
 
+//button testing function
+const colorChange = (e) => {
+    e.target.style.backgroundColor = "red";
+}
+
 export default function About() {
   return (
     <div className='App'>
@@ -11,6 +16,10 @@ export default function About() {
                 <div className='text-content1'>
                     {/* <h1>Code Crafters</h1> */}
                     <h1>Coming Soon</h1>
+                    {/* Test button showing MUI overlay stopping anything working */}
+                    <button onClick={colorChange}>
+                        Test Click Me (I will turn red when I work properly)
+                    </button>
                 </div>
             </div>
         </Parallax>
@@ -36,7 +45,7 @@ export default function About() {
                     <p>
                         (Socials Down Here)
                     </p>
-                    <button>
+                    <button onClick={colorChange}>
                         Click Me
                     </button>
                 </div>

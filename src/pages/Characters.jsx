@@ -20,7 +20,10 @@ const BackStory = ({ character, onClose }) => (
   </div>
 );
 
-
+//testing function for button color change
+const colorChange = (e) => {
+    e.target.style.backgroundColor = "red";
+}
 
 const Characters = () => {
     const [selectedCharacter, setSelectedCharacter] = useState(null);
@@ -42,7 +45,7 @@ const Characters = () => {
                 ))}
             </div>
 
-            <button>Testing This Out</button>
+            <button onClick={colorChange} >Testing This Out</button>
 
             {selectedCharacter && <BackStory character={selectedCharacter} onClose={closeBackstory} />}
         </div>
