@@ -8,6 +8,10 @@ p {
     font-family: 'Eagle Lake', cursive;
 }
 
+.testButton {
+    z-index: -5;
+}
+
 .content1 {
     height: 100vh;
 }
@@ -29,6 +33,7 @@ p {
     transform: translate(-50%, -50%);
     border-radius: 20px;
     font-size: 4vh;
+    z-index: 2;
 }
 
 .text-content2 {
