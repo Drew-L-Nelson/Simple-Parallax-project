@@ -13,7 +13,8 @@ p {
 }
 
 .characters-container {
-    position: relative;
+    position: absolute;
+    top: 10%;
     z-index: 2;
 }
 
