@@ -13,7 +13,9 @@ p {
 }
 
 .characters-container {
-    position: relative;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
 }
 
 .characters-header-div {
@@ -23,7 +25,6 @@ p {
 .characters-scroll-container {
     display: flex;
     overflow-x: auto;
-    z-index: 0;
 }
 
 .character-card {

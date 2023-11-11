@@ -40,14 +40,10 @@ const Characters = () => {
     
     return (
         <div className="characters-container">
-            <div className="characters-header-div" style={{ backgroundImage: `url(${Landscape2})` }}>
-                
-            </div>
             <div className="characters-scroll-container">
                 {characters.map(character => (
                     <CharacterCard key={character.id} character={character} onOpen={openBackstory}/>
                 ))}
-                <button onClick={colorChange} >Testing This Out</button>
             </div>
 
 

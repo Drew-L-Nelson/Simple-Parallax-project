@@ -17,7 +17,7 @@ export default function About() {
                     {/* <h1>Code Crafters</h1> */}
                     <h1>Coming Soon</h1>
                     {/* Test button showing MUI overlay stopping anything working */}
-                    <button onClick={colorChange}>
+                    <button className="testButton" onClick={colorChange}>
                         Test Click Me (I will turn red when I work properly)
                     </button>
                 </div>
